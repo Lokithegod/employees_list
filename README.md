@@ -1,4 +1,5 @@
 # Employees manager
+Create by Iryna Kalika TR-91MP.
 
 Application can:
 * Create a new employee
