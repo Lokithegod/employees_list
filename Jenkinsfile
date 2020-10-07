@@ -9,7 +9,7 @@ pipeline {
  }
  stages {
   stage('Clean & Package') {
-   script {
+   steps {
     script {
      sh ''' mvn clean package '''
     }
