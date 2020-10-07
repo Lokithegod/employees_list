@@ -2,11 +2,11 @@ pipeline {
  agent {
   label 'build_agent'
  }
- options {
+// options {
 //  disableConcurentBuild()
 //  timestamp()
 //  ansiColor('xterm')
- }
+// }
  stages {
   stage('Clean & Package') {
    steps {
