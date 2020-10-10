@@ -1,6 +1,6 @@
 pipeline {
  agent {
-  label 'build_agent'
+  label 'tomcat'
  }
 // options {
 //  disableConcurentBuild()
