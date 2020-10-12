@@ -1,5 +1,3 @@
-# Employees manager
-
 Application can:
 * Create a new employee
 * Update existing employee
