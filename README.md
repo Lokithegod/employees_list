@@ -1,5 +1,3 @@
-build 5
- s
 Application can:
 * Create a new employee
 * Update existing employee
