@@ -1,4 +1,4 @@
-Application can:
+Application can: 
 * Create a new employee
 * Update existing employee
 * Remove employee
