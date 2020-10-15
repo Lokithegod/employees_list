@@ -1,5 +1,4 @@
 Application can: 
-eee
 * Create a new employee
 * Update existing employee
 * Remove employee
