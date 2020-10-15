@@ -18,7 +18,7 @@ pipeline {
   stage ('Stutdown TomCat Server'){
    steps{
     script{
-     sh '''$CATALINA_DIR/bin/shutdown.sh'''
+     sh $CATALINA_HOME'''/bin/shutdown.sh'''
     }
    }
   }
