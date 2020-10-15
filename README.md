@@ -1,5 +1,5 @@
 Application can: 
-* Create a new employeeqq
+* Create a new employee
 * Update existing employee
 * Remove employee
 * List all employees
