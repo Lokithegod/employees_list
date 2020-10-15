@@ -18,7 +18,7 @@ pipeline {
   stage ('Stutdown TomCat Server'){
    steps{
     script{
-     sh '''$CATALINA_HOME bin/shutdown.sh'''
+     '''./shutdown.sh'''
     }
    }
   }
@@ -46,7 +46,7 @@ pipeline {
    stage ('Startup TomCat Server'){
    steps{
     script{
-     sudo sh '''$CATALINA_HOME bin/startap.sh'''
+     '''./startup.sh'''
     }
    }
   }  
