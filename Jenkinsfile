@@ -18,21 +18,21 @@ pipeline {
   stage ('Stutdown TomCat Server'){
    steps{
     script{
-     '''./shutdown.sh'''
+     sh '''$CATALINA_DIR/bin/shutdown.sh'''
     }
    }
   }
   stage ('Remove old application war'){
    steps{
     script{
-     sudo rm '''$CATALINA_HOME webapps/ROOT.war'''
+     sudo rm '''$CATALINA_DIR webapps/ROOT.war'''
     }
    }
   }
   stage ('Remove old application dir'){
    steps{
     script{
-     sudo man rmdir '''$CATALINA_HOME webapps/ROOT'''
+     sudo man rmdir '''$CATALINA_DIR webapps/ROOT'''
     }
    }
   }
@@ -46,7 +46,7 @@ pipeline {
    stage ('Startup TomCat Server'){
    steps{
     script{
-     '''./startup.sh'''
+     sh '''CATALINA_DIR/bin/startup.sh'''
     }
    }
   }  
