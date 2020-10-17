@@ -1,5 +1,4 @@
 Application can: 
-*test что то сломалось 
 * Create a new employee
 * Update existing employee
 * Remove employee
