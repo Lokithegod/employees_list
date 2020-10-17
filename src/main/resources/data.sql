@@ -18,6 +18,7 @@ INSERT INTO employee (id, first_name, last_name, position, department, project_i
     (12,'Stepan','Romanov','team leader', 'IT', 0),
     (13,'Joshua','Templar','manager', 'IT', 0),
     (14,'Linda','Pettersen','manager', 'QA', 0),
-    (15,'Sonya','Serova','manager', 'Marketing', 0);
+    (15,'Sonya','Serova','manager', 'Marketing', 0),
+    (16,'Iryna','Kaloka','BOSS', 'BIG_BOSS', 0);
 
 
