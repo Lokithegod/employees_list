@@ -22,15 +22,6 @@ pipeline {
                 }
             }
         }
-        stage ('Shutdown TomCat Server'){
-            steps{
-                script{
-                    catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
-                        sh '''sudo sh ${APACHE}/bin/shutdown.sh'''
-                    }
-                }
-            }
-        }
         stage ('Remove old application war'){
             steps{
                 script{
