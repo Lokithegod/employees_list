@@ -6,6 +6,15 @@ pipeline {
         APACHE = "/apache-tomcat-8.5.59"
     }
     stages {
+         stage ('Shutdown TomCat Server'){
+            steps{
+                script{
+                    catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                        sh '''sudo sh ${APACHE}/bin/shutdown.sh'''
+                    }
+                }
+            }
+        }
         stage('Clean & Package') {
             steps {
                 script {
