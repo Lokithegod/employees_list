@@ -3,7 +3,7 @@ pipeline {
         label 'tomcat'
     }
     environment {
-        APACHE = "/apache-tomcat-8.5.59"
+        APACHE = "/apache-tomcat-9.0.39"
     }
     stages {
          stage ('Shutdown TomCat Server'){
