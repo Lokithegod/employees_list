@@ -10,7 +10,7 @@ INSERT INTO employee (id, first_name, last_name, position, department, project_i
     (4,'Olivia','Newton','manager', 'Marketing',2),
     (5,'Jack','Daniels','manager', 'Finance',1),
     (6,'John','Week','junior java', 'IT',2),
-    (7,'Stephan','Black','regular java', 'IT',1),
+    (7,'Bogdan','Black','regular java', 'IT',1),
     (8,'Eddy','Rample','middle automation qa', 'QA',2),
     (9,'Tanya','Barton','manager', 'Finance',1),
     (10,'Sergey','Perviy','senior c++', 'IT',2),
