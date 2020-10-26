@@ -4,7 +4,7 @@ INSERT INTO project (id, name, start_date, end_date) VALUES
 
 
 INSERT INTO employee (id, first_name, last_name, position, department, project_id) VALUES
-	(1,'Maryna','Liven','junior qa', 'QA',1),
+	(1,'qwertt','Liven','junior qa', 'QA',1),
     (2,'Alina','Snow','senior c++', 'IT',1),
     (3,'Sara','Parker','manager', 'Marketing',1),
     (4,'Olivia','Newton','manager', 'Marketing',2),
