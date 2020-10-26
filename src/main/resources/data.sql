@@ -4,7 +4,7 @@ INSERT INTO project (id, name, start_date, end_date) VALUES
 
 
 INSERT INTO employee (id, first_name, last_name, position, department, project_id) VALUES
-	(1,'Barsuk','Liven','junior qa', 'QA',1),
+	(1,'Iryna','Kalika','BOSS qa', 'BIG_BOSS',1),
     (2,'Alina','Snow','senior c++', 'IT',1),
     (3,'Sara','Parker','manager', 'Marketing',1),
     (4,'Olivia','Newton','manager', 'Marketing',2),
@@ -19,6 +19,6 @@ INSERT INTO employee (id, first_name, last_name, position, department, project_i
     (13,'Joshua','Templar','manager', 'IT', 0),
     (14,'Linda','Pettersen','manager', 'QA', 0),
     (15,'Sonya','Serova','manager', 'Marketing', 0),
-    (16,'Iryna','Kalika','BOSS', 'BIG_BOSS', 0);
+    (16,'Barsa','Polkin','BOSS', 'BIG_BOSS', 0);
 
 
